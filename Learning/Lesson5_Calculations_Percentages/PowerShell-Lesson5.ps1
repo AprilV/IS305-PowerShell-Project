@@ -1,5 +1,5 @@
 ################################################################################
-# PowerShell Lesson 5: Calculations and Percentages
+# Lesson 5: Calculations and Percentages
 # LEARN: Math Operations, Rounding, Percentage Calculations, Formatting
 ################################################################################
 

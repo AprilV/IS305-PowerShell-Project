@@ -51,6 +51,39 @@
 
 ---
 
+### Week 3 (Feb 2, 2026) - Learning Phase Begins ⏳ IN PROGRESS
+**Status:** Lesson 1 Complete  
+**Hours Logged:** 2 hours (1 hour organization + 1 hour practice)  
+**Deliverables:**
+- ✅ Organized all 7 lesson folders with descriptive names
+- ✅ Created practice.ps1 files with Q1-Q10 format for all lessons
+- ✅ Updated LEARNING_PROCESS.md with Q format requirements
+- ✅ Updated TEACHING_PLAN.md with Microsoft documentation sources
+- ✅ Created SOURCES.md with official Microsoft documentation links
+- ✅ **Lesson 1 Complete: Write-Host, Variables, and Basic Math**
+  - Write-Host cmdlet for output
+  - Variable creation with $ prefix
+  - Data types (String, Integer, Double)
+  - Math operations (+, -, *, /)
+  - String interpolation with double quotes
+  - Escape character (backtick `)
+
+**Skills Learned:**
+- PowerShell variable syntax differs from Python ($ prefix required)
+- Case-insensitivity (different from Python)
+- Double quotes required for variable interpolation (single quotes are literal)
+- Write-Host for display output
+- Basic calculations and tax computations
+
+**Next Session (Feb 3, 2026):**
+- **Daytime:** Python Chapter 9 (2 hours)
+- **Evening:** PowerShell Lesson 2 - Import-Csv, Select-Object, Format-Table (1 hour)
+  - Import Construction_Data_PM_Forms_All_Projects.csv (10,254 records)
+  - Display data in formatted tables
+  - Count total records
+
+---
+
 ### Week 3 - PowerShell Fundamentals
 **Status:** Not Started  
 **Planned Hours:** 10 hours  

@@ -1,6 +1,6 @@
 ################################################################################
-# PowerShell Lesson 1: The Absolute Basics
-# LEARN: Write-Host, Variables, Basic Math
+# Lesson 1: Write-Host, Variables, and Basic Math
+# LEARN: Displaying output, storing data, simple calculations
 ################################################################################
 
 # ============================================================================

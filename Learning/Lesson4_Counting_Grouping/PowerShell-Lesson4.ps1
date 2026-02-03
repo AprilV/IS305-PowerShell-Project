@@ -1,5 +1,5 @@
 ################################################################################
-# PowerShell Lesson 4: Counting and Grouping Data
+# Lesson 4: Counting and Grouping Data
 # LEARN: Measure-Object, Group-Object, Statistics
 ################################################################################
 

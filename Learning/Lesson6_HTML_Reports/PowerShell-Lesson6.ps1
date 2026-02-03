@@ -1,5 +1,5 @@
 ################################################################################
-# PowerShell Lesson 6: Creating HTML Reports
+# Lesson 6: Creating HTML Reports
 # LEARN: ConvertTo-Html, HTML Styling, Multi-Section Reports
 ################################################################################
 

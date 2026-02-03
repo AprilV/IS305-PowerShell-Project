@@ -1,5 +1,5 @@
 ################################################################################
-# PowerShell Lesson 2: Import CSV and Display Data
+# Lesson 2: Import CSV and Display Data
 # LEARN: Import-Csv, Select-Object, Format-Table, .Count
 ################################################################################
 

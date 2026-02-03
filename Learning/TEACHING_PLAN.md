@@ -3,6 +3,29 @@
 
 ---
 
+## OFFICIAL SOURCES - VERIFICATION REQUIRED
+
+**All lessons MUST be verified against official Microsoft PowerShell documentation.**
+
+### Primary Documentation Source:
+- **Microsoft Learn PowerShell Docs**: https://learn.microsoft.com/en-us/powershell/
+- **PowerShell Module Reference**: https://learn.microsoft.com/en-us/powershell/module/
+
+### Verification Process:
+1. **Before teaching ANY lesson**, AI must verify cmdlet syntax against Microsoft docs
+2. Reference SOURCES.md file in Z_PowerShell_Scripting/ folder
+3. Each lesson file includes reference links in comments
+4. Examples and syntax must match official documentation
+5. Parameter names, types, and usage must be accurate
+
+### Teaching Without a Textbook:
+- **Python Course**: Has textbook (Automate the Boring Stuff with Python)
+- **PowerShell Course**: No textbook - relies on official Microsoft documentation
+- **Critical**: Lessons must teach PowerShell fundamentals BEYOND just the project needs
+- **Goal**: Build solid foundation, not just project-specific skills
+
+---
+
 ## PROJECT OVERVIEW
 
 **Student:** April SYKES  
@@ -31,20 +54,33 @@
 ## TEACHING METHODOLOGY
 
 **Core Principles:**
-1. Follow the same format used for Python teaching (Chapter summaries + Practice exercises)
+1. Follow the same format used for Python teaching (Q1, Q2, Q3 practice format)
 2. One concept at a time - no rushing
 3. Explain EVERY line of code
 4. Explain WHY things are done certain ways (capitalization, syntax, operators)
 5. Practice before moving on
 6. Build incrementally toward the final project
+7. **TEACH FUNDAMENTALS BEYOND PROJECT NEEDS** - solid foundation, not just "enough to get by"
+
+**Fundamental Coverage - NOT Just Project-Specific:**
+The lessons build on each other progressively, teaching core PowerShell concepts that apply broadly:
+- **Lesson 1**: Core language syntax (variables, output, math) - universal skills
+- **Lesson 2**: Data import/display - applies to ANY data file, not just our CSV
+- **Lesson 3**: Filtering/conditionals - fundamental programming concepts
+- **Lesson 4**: Aggregation/grouping - data analysis foundation
+- **Lesson 5**: Math/calculations - general computation skills
+- **Lesson 6**: Report generation - applies to ANY HTML output
+- **Lesson 7**: File operations/automation - universal scripting skills
+
+**Each lesson teaches transferable skills that work beyond this specific project.**
 
 **File Structure:**
 ```
 Learning/
-├── Lesson1/
-│   ├── PowerShell-Lesson1.ps1  (teaching file - read and learn)
-│   └── practice.ps1             (student types here)
-├── Lesson2/
+├── Lesson1_WriteHost_Variables_Math/
+│   ├── PowerShell-Lesson1.ps1  (reference - complete examples)
+│   └── practice.ps1 (student workspace with Q1, Q2, Q3...)
+├── Lesson2_Import_CSV_Display/
 │   ├── PowerShell-Lesson2.ps1
 │   └── practice.ps1
 ...
@@ -52,10 +88,10 @@ Learning/
 ```
 
 **Daily Process:**
-1. Read LEARNING_PROCESS.md at start of each session
-2. Open the lesson file (PowerShell-LessonN.ps1)
-3. Student reads and understands concepts
-4. Student practices in practice.ps1
+1. AI reads LEARNING_PROCESS.md at start of each session
+2. AI verifies lesson content against official Microsoft documentation
+3. AI posts lesson content in chat (student has one screen)
+4. Student practices in practice.ps1 file (Q1, Q2, Q3 format)
 5. Verify output is correct
 6. Move to next lesson only when current is mastered
 
@@ -65,8 +101,9 @@ Learning/
 - State rules (REQUIRED vs OPTIONAL)
 - Examples with expected output
 - Comments explaining EVERY line
-- Practice exercises at end
-- Follow Python Chapter format style
+- Microsoft documentation references
+- Practice file has Q1, Q2, Q3 format with examples
+- Follow Python teaching format exactly
 
 ---
 

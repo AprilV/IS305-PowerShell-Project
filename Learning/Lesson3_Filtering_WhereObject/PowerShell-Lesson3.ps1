@@ -1,5 +1,5 @@
 ################################################################################
-# PowerShell Lesson 3: Filtering Data
+# Lesson 3: Filtering Data with Where-Object
 # LEARN: Where-Object, Comparison Operators, If Statements
 ################################################################################
 

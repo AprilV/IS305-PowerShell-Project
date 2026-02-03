@@ -1,5 +1,5 @@
 ################################################################################
-# PowerShell Lesson 7: Saving Files and Sending Email
+# Lesson 7: Saving Files and Sending Email
 # LEARN: Out-File, Send-MailMessage, Get-Date, Final Integration
 ################################################################################
 
